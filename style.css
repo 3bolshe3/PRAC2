@@ -19,13 +19,12 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 60px;
+  margin-top: 93px;
 }
 
 /* ===== десктоп (базовые стили) ===== */
 .site--desktop {
-  width: 940px;
-  margin: 0 auto;
+  width: 1100px;
 }
 
 .header {
@@ -38,7 +37,7 @@
 .logo {
   display: flex;
   align-items: center;
-  margin-left: 12px;
+  margin-left: 0;
   color: #fff;
   text-decoration: none;
 }
@@ -124,12 +123,13 @@
 
 .articles {
   display: flex;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
 .gallery {
-  width: 294px;
-  margin: 0 78px 0 9px;
+  width: 330px;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
@@ -148,8 +148,7 @@
 }
 
 .articles__list {
-  width: 300px;
-  margin-right: 54px;
+  width: 330px;
 }
 
 .article {
@@ -173,7 +172,7 @@
 }
 
 .notes {
-  width: 204px;
+  width: 260px;
 }
 
 .note {
@@ -190,7 +189,7 @@
 }
 
 .note__content {
-  width: 144px;
+  width: 200px;
 }
 
 /* ===== общее для планшета и мобильной версии ===== */
@@ -218,7 +217,7 @@
 }
 
 .site--tablet .logo {
-  margin-left: 3px;
+  margin-left: 0;
 }
 
 .site--tablet .logo__img {
@@ -263,17 +262,14 @@
 
 .site--tablet .gallery {
   display: flex;
-  width: 672px;
-  margin: 0 0 9px 9px;
+  justify-content: space-between;
+  width: 681px;
+  margin: 0 0 9px;
 }
 
 .site--tablet .gallery__item {
   width: 210px;
-  margin: 0 18px 0 0;
-}
-
-.site--tablet .gallery__item:last-child {
-  margin-right: 0;
+  margin: 0;
 }
 
 .site--tablet .gallery__img {
